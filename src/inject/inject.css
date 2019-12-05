@@ -1,0 +1,54 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+
+ @media screen and (min-width: 1060px) {
+  #TradingViewGraph {
+    min-height: 800px;
+    margin-left: 65px;
+  }
+
+  #___drawerIconWrapper {
+    display: block !important;
+  }
+
+  .MuiDrawer-docked {
+    display: none !important;
+  }
+
+  #market-selector-dropdown {
+    margin-top: -40px;
+    margin-left: 50px;
+  }
+
+  #___symbolSelector {
+    position: absolute;
+    width: 80px;
+    height: 800px;
+    top: 100px;
+  }
+  
+  #___symbolSelector > div {
+    display: block;
+    overflow-y: scroll;
+  }
+
+  #___symbolSelector > div::-webkit-scrollbar {
+    background: #424242;
+    width: 7px;
+    border-radius: 10px;
+  }
+  
+  #___symbolSelector > div::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 10px;
+  }
+
+  #___symbolSelector > div [role="tablist"] {
+    display: block;
+  }
+
+  #___symbolSelector > div [role="tablist"] button {
+    display: block;
+  }
+}
